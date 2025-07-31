@@ -1,0 +1,23 @@
+{
+    "name": "bloodbridge-bot",
+    "version": "1.0.0",
+    "description": "WhatsApp blood-donation chatbot for Blood Warriors (deployed on Vercel, backed by Supabase)",
+    "engines": {
+        "node": ">=18"
+    },
+    "scripts": {
+        "lint": "eslint \"/*.js\"",
+        "test": "jest --coverage"
+    },
+    "dependencies": {
+        "@supabase/supabase-js": "^2.44.0",
+        "twilio": "^4.18.1",
+        "dotenv": "^16.0.3"
+    },
+    "devDependencies": {
+        "jest": "^29.5.0",
+        "supertest": "^6.3.3",
+        "eslint": "^8.39.0",
+        "vercel": "^28.4.5"
+    }
+}
